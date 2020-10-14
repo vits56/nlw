@@ -7,4 +7,7 @@
 
 aside {
     width: clamp(34rem, 25vw, 44rem);
-}
+    background: linear-gradient(329.54deg, #15b6d6 0%, #15d6d6 100% );
+
+    padding: 8rem;
+}/* 41min
