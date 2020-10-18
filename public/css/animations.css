@@ -44,5 +44,6 @@
 
 .animate-appear {
     animation-name: appear;
-    -moz-animation-duration: 300ms;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
 }
