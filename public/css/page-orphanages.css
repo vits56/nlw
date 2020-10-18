@@ -67,8 +67,6 @@ a.create-orphanage:hover {
 
 .leaflaf-popup-content {
     color: #0089a5;
-    font-size: 2rem;
-    font-weight: 600;
     margin: .8rem 1.2rem;
 
     display: flex;
@@ -90,4 +88,16 @@ a.create-orphanage:hover {
     transition: background-color .2s;
 
 }
-/* 1:41:36
+
+.leaflaf-popup-content a.hover {
+    background: #17d6eb;
+}
+
+.leaflaf-popup-tip {
+    display: none;
+
+}
+
+.leaflaf-container {
+    
+}
