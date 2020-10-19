@@ -62,5 +62,17 @@ aside.sidebar footer button:hover {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1.6rem;
-    mar
+    margin: 16px 40px 0;
+}
+
+.images button {
+    border: 0;
+    background: none;
+}
+
+.images button img {
+    width: 100%;
+    height: 8.8rem;
+    object-fit: cover;
+
 }
