@@ -39,6 +39,11 @@ aside.sidebar footer button:hover {
     padding-left: 110px;
 }
 
+main {
+    flex: 1;
+}
+
+
 /*details*/
 
 .orphanage-details {
@@ -230,5 +235,10 @@ aside.sidebar footer button:hover {
 
 .primary-button:hover {
     background: #36cf82;
-    
+
+}
+
+.primary-button img {
+    margin-right: 1.6rem;
+
 }
