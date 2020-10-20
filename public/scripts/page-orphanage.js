@@ -37,6 +37,8 @@ L
 
 /* Image gallery */
 
-function selectImage() {
-    
+function selectImage(event) {
+    console.log("cliquei no botao")
 }
+
+/* 2:48
