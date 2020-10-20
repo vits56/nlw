@@ -182,6 +182,12 @@ aside.sidebar footer button:hover {
 
 }
 
+.open-details img {
+    display: block;
+
+    margin-bottom: 2rem;
+}
+
 .open-details .hour {
     background: linear-gradient(149.97deg, #e6f7fb 8.13%, #ffffff 92.67%);
     border: 1px solid #b3dae2;
@@ -198,4 +204,19 @@ aside.sidebar footer button:hover {
 
     color: #37c77f;
 
+}
+
+.primary-button {
+    margin-top: 6.4rem;
+
+    width: 100%;
+    height: 6.4rem;
+    border: 0;
+
+    cursor: pointer;
+
+    background: #3cdc8c;
+
+    border-radius: 2rem;
+    
 }
