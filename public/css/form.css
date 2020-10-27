@@ -73,5 +73,15 @@ fieldset legend {
     resize: vertical;
     padding: 1.6rem;
     line-height: 2.8rem;
-    /*32minutes*/
 }
+
+.input-block.images button {
+    border: 1px dashed #96d2f0;
+    width: 100%;
+    background: #f5f8fa;
+    height: 6.4rem;
+    padding: 0 1.6rem;
+    margin-top: 2.4rem;
+    border-radius: 2rem;
+
+}/*38:31*/
