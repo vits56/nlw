@@ -29,3 +29,20 @@
     margin-right: 1.6rem;
 
 }
+
+.button-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button-select button {
+    height: 6.4rem;
+    background: #f5f8fa;
+    border: 1px solid #d3e2e5;
+    color: #5c8599;
+    cursor: pointer;
+}
+
+.button-select button:first-child {
+    
+}
