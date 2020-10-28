@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./public/css/animations.css" />
     <link rel="stylesheet" href="./public/css/sidebar.css" />
     <link rel="stylesheet" href="./public/css/form.css" />
+    <link rel="stylesheet" href="./public/css/buttons.css" />
     <link rel="stylesheet" href="./public/css/map.css" />
     
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -74,9 +75,9 @@
               <label for="images">Foto</label>
               
               <div class="images-upload" id="images">
-                <input name="images">
+                <input name="images" placeholder="cole o link da foto aqui">
               </div>
-              <button>
+              <button type="button">
                 <img src="./public/images/add-file.svg" alt="Nova imagem">
               </button>
             </div>
@@ -85,6 +86,30 @@
 
           <fieldset>
             <legend>Visitação</legend>
+
+            <div class="input-block">
+              <label for="instructions">Instruções</label>
+              <textarea id="instructions" name="instructions"></textarea>
+            </div>
+
+            <div class="input-block">
+              <label for="opening-hours">Horário de visitas</label>
+              <textarea id="opening-hours" name="opening-hours"></textarea>
+            </div>
+
+            <div class="input-block">
+              <label for="open-on-weekends">Atende fim de semana?</label>
+              <input type="hidden" id="open-on-weekends" name="open-on-weekends" value="1">
+            
+              <div class="button-select">
+                <button type="button" class="active">Sim</button>
+                <button type="button">Não</button>
+              </div>
+              <button type="submit" class="primary-button">
+                Confirmar
+              </button>
+
+            </div>
           </fieldset>
         </form>
         

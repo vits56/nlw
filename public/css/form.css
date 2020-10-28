@@ -84,4 +84,5 @@ fieldset legend {
     margin-top: 2.4rem;
     border-radius: 2rem;
 
-}/*38:31*/
+    cursor: pointer;
+}
